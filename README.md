@@ -13,8 +13,12 @@ MedDialog 数据集（中文）包含医生和患者之间的对话（中文）�
 相关项目地址：[https://link.zhihu.com/?target=https%3A//github.com/UCSD-AI4H/Medical-Dialogue-System](https://link.zhihu.com/?target=https%3A//github.com/UCSD-AI4H/Medical-Dialogue-System)
 
 2.基于ineternlm和langchain搭建医疗问答库
+
 模型：internlm-chat-7B
+
 3.Openxlab部署
+
 参考文档：
+
 [基于 InternLM 和 LangChain 搭建你的知识库](https://github.com/InternLM/tutorial/tree/main/langchain)
 [https://openxlab.org.cn/docs/apps/Gradio%E5%BA%94%E7%94%A8.html](https://openxlab.org.cn/docs/apps/Gradio%E5%BA%94%E7%94%A8.html)
