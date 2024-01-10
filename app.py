@@ -1,3 +1,6 @@
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 import gradio as gr
 from LLM_chain import Model_center
 from build_env import build_env
