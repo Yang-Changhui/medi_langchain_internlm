@@ -11,7 +11,7 @@ def build_env():
     # download model
     if not os.path.exists('/home/xlab-app-center/model/InternLM-chat-7b'):
         from openxlab.model import download
-        download(model_repo='OpenLMLab/InternLM-chat-7b-8k', output='/home/xlab-app-center/model/InternLM-chat-7b-8k')
+        download(model_repo='OpenLMLab/InternLM-chat-7b', output='/home/xlab-app-center/model/InternLM-chat-7b')
         os.system("python LLM_chain.py")
 
     if not os.path.exists('/home/xlab-app-center/model/sentence-transformer'):
