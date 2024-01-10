@@ -4,7 +4,6 @@ import os
 def build_env():
     print('工作路径', os.getcwd())
     print('当前目录', os.path.abspath(os.curdir))
-    os.system("pip install chromadb==0.3.29")
     os.system("pip install pysqlite3")
     os.system(
         "git clone https://gitee.com/yzy0612/nltk_data.git  --branch gh-pages;cd nltk_data;mv packages/*  ./;cd tokenizers;unzip punkt.zip;cd ../taggers;unzip averaged_perceptron_tagger.zip")
