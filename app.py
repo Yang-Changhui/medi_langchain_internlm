@@ -1,5 +1,9 @@
 import gradio as gr
 from LLM_chain import Model_center
+from build_env import build_env
+# build environment
+build_env()
+
 # 实例化核心功能对象
 model_center = Model_center()
 # 创建一个 Web 界面

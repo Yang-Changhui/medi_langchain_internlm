@@ -75,7 +75,7 @@ def load_chain():
     return qa_chain
 
 
-class Model_center():
+class Model_center:
     """
     存储检索问答链的对象
     """
