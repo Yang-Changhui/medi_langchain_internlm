@@ -45,10 +45,10 @@ class InternLM_LLM(LLM):
 def load_chain():
     # 加载问答链
     # 定义 Embeddings
-    embeddings = HuggingFaceEmbeddings(model_name="/root/xlab-app-center/model/sentence-transformer")
+    embeddings = HuggingFaceEmbeddings(model_name="/home/xlab-app-center/model/sentence-transformer")
 
     # 向量数据库持久化路径
-    persist_directory = '/root/xlab-app-center/data_base/vector_db/chroma'
+    persist_directory = '/home/xlab-app-center/data_base/vector_db/chroma'
 
     # 加载数据库
     vectordb = Chroma(
